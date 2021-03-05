@@ -1,0 +1,194 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+.btn,
+  a.btn,
+  button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #fff;
+    border-radius: 0.5rem;
+  }
+
+body {
+    width: 414px;
+    margin-right: auto;
+    margin-left : auto;
+}
+.menu {
+    position: relative;
+    overflow: hidden;
+    border-collapse: separate;
+    margin-top: 20px;
+}
+.menu td {
+    position: relative;
+    float: left;
+}
+
+.menu td tr {
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+.total {
+    border: none;
+    outline: none;
+    width: 60px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.button {
+    text-align : center ;
+    margin-top: 10px;
+}
+
+.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    border: none;
+    outline: none;
+    width: 190px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.btn--green {
+    color: #fff;
+    background-color: green;
+    border: none;
+    outline: none;
+    width: 190px;
+}
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+.fee {
+    font-size: 15px;
+}
+
+.button1 {
+    color: #fff;
+    background-color: blue;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+}
+
+.button2 {
+    color: #fff;
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+}
+
+.img_one {
+    margin-right: 20px;
+}
+
+.img_buy {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.flash_message {
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.alert {
+    text-align: center;
+    font-size: large;
+    background-color: royalblue;
+    border-radius: 30px;
+    color: #fff;
+    height: 40px;
+}
+
+.selection-group input[type="radio"] {
+    display: none;
+  }
+
+  /* 画像部分に余白を持たせる */
+label img {
+    margin: 3px;
+    padding: 8px;
+    height: 80px;
+}
+
+  /* 選択されたラジオボタンの画像の背景をオレンジ色に変える */
+.selection-group input[type="radio"]:checked + label img {
+    background: orange;
+}
+
+.cart_name {
+    font-weight: bold;
+}
+
+.fee {
+    font-weight: bold;
+}
